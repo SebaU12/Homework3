@@ -1,0 +1,16 @@
+<div class="div-table">
+    <table>
+        <tr class="table-header">
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Fecha de agregado al menú</th>
+            <th>Fecha de modificación</th>
+        </tr>
+        <tr *ngFor="let dish of lstmenu" class="table-info">
+            <th>{{dish.plato_nom}}</th>
+            <th>S/ {{dish.precio}}</th>
+            <th>{{dish.created_date}} </th>
+            <th>{{dish.modified_date}}</th>
+        </tr>
+    </table>
+</div>

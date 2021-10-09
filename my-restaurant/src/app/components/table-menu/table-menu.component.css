@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-table {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+}
+
+.div-table table {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.table-header th {
+    color: rgb(197, 118, 27);
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+}
+
+.table-info th {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    color: grey;
+    border-left: 1px solid rgb(197, 118, 27);
+    border-right: 1px solid rgb(197, 118, 27);
+}
